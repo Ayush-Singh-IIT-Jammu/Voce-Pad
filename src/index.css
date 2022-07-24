@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://vip-go.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_407554567.jpg?w=750);
+}
+h1{
+  color:whitesmoke;
+   font-family: 'Copperplate Gothic';
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: grey;
+  background-clip: content-box;
+  animation: forwards;
+}
+
+h2
+{
+  color:black;
+  font-family: 'Copperplate Gothic';
+  font-size: large  ;
+} 
+.box{
+  box-shadow: -4px 10px 35px -1px rgba(62, 7, 7, 0.75);
+  min-height: 20rem;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background-size: 100% ;
+  
+  background-image: url(https://www.bhphotovideo.com/images/images1000x1000/MXL_LSC_1W_LSC_1_Handheld_Condenser_Microphone_811650.jpg);
+  
+  flaot:left;
+}
+.box:nth-child(2){
+  box-shadow: -4px 10px 35px -1px rgba(0, 0, 0, 0.75);
+  min-height: 20rem;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background-size: 100% ;
+  background-image: url(https://img.freepik.com/premium-vector/grey-background-vector-design-concept_42961-16.jpg?w=2000);
+}
+h1 {
+  margin-left: 20px;
+  textcolor:gold;
+}
+
+button {
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: solid;
+}
